@@ -1,0 +1,21 @@
+.content {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 5px solid var(--color-secondary);
+    background: var(--color-primary);
+    margin-top: 15px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content h2,
+.content p,
+.content strong,
+.content cite {
+    color: var(--color-secondary);
+}
+
+.content cite {
+    display: block;
+}

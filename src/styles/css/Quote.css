@@ -1,0 +1,17 @@
+.btn {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid var(--color-secondary);
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: var(--color-primary);
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
